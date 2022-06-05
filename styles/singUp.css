@@ -11,7 +11,7 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.singUp-page { 
+.singUp-page, .sucess-page { 
     width: 32%; 
     height: 90vh;
     display: flex;

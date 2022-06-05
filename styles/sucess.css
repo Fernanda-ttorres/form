@@ -1,0 +1,36 @@
+.sucess-page {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hader-sucess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.sucess-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    margin: 2rem 0 1rem 0;
+}
+
+.btn-sucess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.5em 0;
+}
+ 
+.goBack {
+    color: #ffffff;
+    background: #0DBDBD;
+    border: none;
+    border-radius: 6px;
+    padding: 2.2em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
