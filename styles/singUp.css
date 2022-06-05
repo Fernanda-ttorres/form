@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Nunito:ital@1&display=swap');
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #E5E5E5;
+    font-family: 'Nunito', sans-serif;
+}
+
+.singUp-page { 
+    width: 32%; 
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+}
+
+.form-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Header*/
+.singUp-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.singUp-logo {
+    width: 12vw;
+    margin-bottom: 1rem;
+}
+
+.singUp-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+/*footer*/
+.form-footer {
+    width: 27vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.register {
+    background: #0DBDBD;
+    border: none;
+    border-radius: 5px;
+    padding: 0.6em;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.check-submit {
+    display: flex;
+    justify-content: space-between;
+}

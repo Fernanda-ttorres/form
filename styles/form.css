@@ -1,0 +1,56 @@
+.singUp-form {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    width: 27vw;   
+}
+
+/*inputs*/
+.singUp-form {
+    margin-top: 1rem;
+}
+
+.input-container {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.input {
+    border: 0;
+    border-radius: 5px;
+    border: 2px solid #AAAAAA;
+    font-size: 0.8em;
+    color: #767676;
+    padding: 0.7em 0.4em;
+}
+
+.input-label { 
+    font-size: 0.9em;
+    color: #767676;
+    padding: 0.4em 0.1em;
+}
+
+.doble-input-container { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#email {
+    width: 15vw;
+}
+
+#phone {
+    width: 8vw;
+}
+
+#password {
+    width: 15vw;
+}
+
+#birthday {
+    width: 8vw;  
+    height: 2.7vh;
+}
